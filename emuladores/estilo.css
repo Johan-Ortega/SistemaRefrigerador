@@ -1,0 +1,57 @@
+body {
+	background: linear-gradient(50deg, #0ad9e0, #62ec79);
+    font-family: sans-serif;
+}
+
+.portada{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    font-size: 150%
+}
+
+.titulo{
+    color: #fff;
+}
+
+.button{
+    color: #fff;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.text{
+    
+    padding: 15px 32px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 40px;
+}
+
+.acciones{
+    position: absolute;
+	left: 10%;
+    color: #06187a;   
+}
+
+.btacciones{
+    margin-top: 2%;
+    margin-left: 40%;
+}

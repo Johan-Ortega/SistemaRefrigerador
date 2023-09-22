@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="portada">
+        <h1 class="titulo">Emulador IoT</h1>
+        <div class="button">
+            <label id="estado">Desconectado 🔴</label>
+            <input class="text" type="text" id="dispositivo">
+            <button class="boton" id="iniciar">Inicar/Detener</button>
+        </div>
+    </div>
+
+    <div class="acciones">
+        <br><br>
+        <h3>Acciones del contenedor: </h3>
+    </div>
+    <div class="btacciones">
+        <label id="lblGas">On</label>
+        <button class="boton" id="refri">On/Off - Refrigeracion</button> <br><br>
+        <label id="lblPuerta">On</label>
+        <button class="boton" id="puerta">On/Off - Puertas</button>
+    </div>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/mqtt@4.1.0/dist/mqtt.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

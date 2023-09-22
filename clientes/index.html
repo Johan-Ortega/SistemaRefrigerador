@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="portada">
+        <img class="img" src="uv.png" alt="uv">
+        <div class="titulo">Administrador IOT</div>
+        <div class="button">
+            <label id="estado">Desconectado 🔴</label>
+            <button class="boton" id="iniciar">Inicar/Detener</button>
+        </div>
+    </div>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" />
+    <div class="select">
+        <h3 class="texto">Seleccionar dispositivo</h3> 
+        <input class="text" type="text" id="dispositivo"> </tr></tr>
+    </div>
+
+    <div class="repu">
+        <button class="boton" id="refri">On/Off - Refrigeracion</button>
+        <button class="boton" id="puerta">On/Off - Puertas</button>
+    </div>
+
+    <script src="https://unpkg.com/mqtt@4.1.0/dist/mqtt.min.js"></script>
+    <script src="./js/script.js"></script>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <table class="table" id="tablaprueba">
+                <thead>
+                    <tr class="tabla">
+                        <th>name</th>
+                        <th>temCen</th>
+                        <th>temSuIzq</th>
+                        <th>temSuDer</th>
+                        <th>datoVelo</th>
+                        <th>edoGas</th>
+                        <th>edoPuerta</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+	background: linear-gradient(50deg, #62ec79, #0ad9e0);
+    font-family: sans-serif;
+}
+
+.portada{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    font-size: 150%
+}
+
+.img{
+    display: flex;
+    height: 70px;
+}
+
+.titulo{
+    color: #fff;
+}
+
+.button{
+    color: #fff;
+    margin-right: 5%;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.select{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 2%;
+}
+
+.text{
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 40px;
+    margin-right: 35%;
+}
+
+.repu{
+    position: absolute;
+	top: 15%;
+	left: 70%;
+    
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th,
+td {
+	padding: 10px;
+	background-color: rgba(255,255,255,0.2);
+	color: rgb(0, 0, 0);
+}
+
+
